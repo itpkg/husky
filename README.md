@@ -1,2 +1,3 @@
-# husky
-A web 
+Husky - Create a website easily.
+---
+
