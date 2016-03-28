@@ -8,7 +8,7 @@ import (
 
 //Encryptor encryptor
 type Encryptor struct {
-	Cip cipher.Block
+	Cip cipher.Block `inject:""`
 }
 
 //Encode aes encoder

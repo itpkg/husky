@@ -7,9 +7,9 @@ import (
 
 //GormProvider provider of gorm
 type GormProvider struct {
-	Db  *gorm.DB
-	Enc *crypto.Encryptor
-	Ser *crypto.Serial
+	Db  *gorm.DB          `inject:""`
+	Enc *crypto.Encryptor `inject:""`
+	Ser *crypto.Serial    `inject:""`
 }
 
 //Set set
