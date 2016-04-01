@@ -3,11 +3,11 @@ package main
 import (
 	"log"
 
-	"github.com/itpkg/husky/web"
 	_ "github.com/itpkg/husky/web/blog"
 	_ "github.com/itpkg/husky/web/books"
 	_ "github.com/itpkg/husky/web/cms"
 	_ "github.com/itpkg/husky/web/core"
+	"github.com/itpkg/web"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 )
 
